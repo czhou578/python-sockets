@@ -105,7 +105,6 @@ if len(sys.argv) >= 1:
     list_matches = []
     thread_array = []
 
-
     for root, directory, files in os.walk(directory):
         for file_name in files:
             match = re.search(search_pattern, file_name)
@@ -123,7 +122,6 @@ if len(sys.argv) >= 1:
                 thread.join()
                 hash_thread.join()
                 # archive_thread.join()
-        
 
     for entry in result:
         print(entry)
