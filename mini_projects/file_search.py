@@ -9,6 +9,10 @@ import hashlib
 import subprocess
 import logging
 
+import asyncio
+import getopt
+import ast
+
 """
 File Search and Reporting Utility:
 
@@ -89,6 +93,7 @@ def del_log(file_path):
         os.remove(file_path)
     except FileNotFoundError:
         print(f"File is not found")
+
 
 # ---------------------------------------------------------------------------------------------
 
