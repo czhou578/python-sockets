@@ -1,3 +1,3 @@
 # socket.py
 
-My work for learning socket programming in Python for Summer 2023. This was done in preparation for taking CS 425 Distributed Systems at UIUC.
+Playing around with socket programming in Python. This was done in preparation for taking distributed systems in Fall 2023 semester.
